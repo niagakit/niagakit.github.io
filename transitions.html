@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parallax Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="nav-extended">
+        <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="css.html" target="_self">Color</a></li>
+                <li class="tab"><a target="_self" href="grid.html">Grid</a></li>
+                <li class="tab"><a target="_self" href="helper.html">Helpers</a></li>
+                <li class="tab"><a target="_self" href="media.html">Media</a></li>
+                <li class="tab"><a target="_self" href="pulse.html">Pulse</a></li>
+                <li class="tab"><a target="_self" href="shadow.html">Shadow</a></li>
+                <li class="tab"><a target="_self" href="table.html">Table</a></li>
+                <li class="tab"><a target="_self" class="active" href="transitions.html">Transitions</a></li>
+                <li class="tab"><a target="_self" href="typography.html">Typography</a></li>
+                 <li class="tab"><a href="index.html" target="_self">Home</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--============================================== COLOR======================================================-->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col s12 m9 l10">
+
+                <div id="scale" class="section scrollspy">
+                    <p class="caption">We've made some custom animation classes that will transition your content with only CSS. Each CSS transition consists of a base class that applies the necessary styles and additional classes that control the state of the transition.</p>
+
+                    <h4>Scale</h4>
+                    <p>Use this scale in and out elements. Make sure to add the base transition class <code class=" language-markup">scale-transition</code>. Then add the class <code class=" language-markup">scale-out</code> to scale the element down until it is hidden. To start something as hidden, add the class <code class=" language-markup">scale-out</code> first, and then add the class <code class=" language-markup">scale-in</code> to scale the element up until it is shown.</p>
+
+                   <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition"><i class="material-icons">add</i></a>
+
+        <a id="scale-demo-trigger" href="#!" class="btn right">Toggle Scale</a>
+
+                    <pre class=" language-markup"><code class=" language-markup">
+  <span class="token comment" spellcheck="true">&lt;!-- Scaled in --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>scale-demo<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-floating btn-large scale-transition<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>add<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token comment" spellcheck="true">&lt;!-- Scaled out --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>scale-demo<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#!<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>btn-floating btn-large scale-transition scale-out<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>material-icons<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>add<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+  </code></pre>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="brown-text text-lighten-3" href="https://www.niagahoster.co.id/">Niagahoster Team Developer</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bin/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+
+</html>
